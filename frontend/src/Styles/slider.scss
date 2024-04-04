@@ -1,0 +1,57 @@
+.slider {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.4s;
+
+  }
+
+  svg {
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 700;
+    cursor: pointer;
+    &:hover {
+      color: red;
+    }
+  }
+  .pre {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  .next {
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  .dots {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    .dot {
+      height: 1rem;
+      width: 1rem;
+      background-color: transparent;
+      border: 1px solid #363636;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+  }
+
+  .banner_title {
+    position: absolute;
+    bottom: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.3rem;
+  }
+}

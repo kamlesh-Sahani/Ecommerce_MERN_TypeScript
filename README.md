@@ -46,13 +46,13 @@ To set up the project locally, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ecommerce-platform.git
+git clone https://github.com/kamlesh-Sahani/Ecommerce_MERN_TypeScript.git
 ```
 
 ### 2. Navigate to Project Directory
 
 ```bash
-cd ecommerce-platform
+cd Ecommerce_MERN_TypeScript
 ```
 
 ### 3. Install Backend Dependencies
